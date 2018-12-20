@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
 title: [Annlee Fores]
 description: [Site detailing about my contributions and projects]
-show_downloads: [false]
+github:
+  zip_url: http://www.hackster.io/Annlee_Fores
