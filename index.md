@@ -7,4 +7,4 @@ As of now I'm working with Hack Club to spread the magical powers of coding.
 
 # Doing my part in this tech world ;)
 
-My project details are given in my [hackster profile](https://www.hackster.io/Annlee_Fores)
+My project details are given in my [Hackster profile](https://www.hackster.io/Annlee_Fores)
