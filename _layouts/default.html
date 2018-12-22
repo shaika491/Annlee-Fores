@@ -48,10 +48,6 @@
   color: white;
   background: #007bb5;
 }
-      
-.fa-github { 
- color: white;
-}
 
 .fa-instagram {
   color: white;
@@ -61,7 +57,10 @@
   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   }
-
+.fa-mail-forward {
+  color: black;
+  }
+      
 </style>
   </head>
   <body>
@@ -70,7 +69,7 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         <a href="{{ site.github.repository_url }}" class="btn">Hackster</a>
-        <a href="https://github.com/1061999" class="btn"><i class="fa fa-github"></i></a>
+        <a href="https://github.com/1061999" class="btn">GitHub</a>
         <a href="https://medium.com/@annleefores" class="btn">Medium</a> 
       <p>
        <a href="https://twitter.com/annlee_fores" class="fa fa-twitter"></a>
@@ -86,7 +85,7 @@
       {{ content }}
 <div 
      class="home-contact">
-  </a>Email ID: <a href="mailto:annleefores@gmail.com">annleefores@gmail.com</a>
+  </a>Email ID: <a href="mailto:annleefores@gmail.com" class="fa fa-mail-forward"</a>
       
 </div>
       <footer class="site-footer">
