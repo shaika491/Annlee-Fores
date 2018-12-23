@@ -6,5 +6,3 @@ I started my journey by writing about my projects on [Instructables.com](https:/
 As of now I'm working with Hack Club to spread the magical powers of coding.
 
 # Doing my part in this tech world ;)
-
-My project details are given in my [Hackster profile](https://www.hackster.io/Annlee_Fores)
