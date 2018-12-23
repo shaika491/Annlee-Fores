@@ -95,11 +95,22 @@
   opacity: 1;
   right: 0;
 }
+.imgBox{
+		width: 441px;
+		height: 248px;
+		background: "me.jpg" no-repeat;
+	}
+	.imgBox:hover{
+		-moz-box-shadow: 0 0 10px #ccc;
+		-webkit-box-shadow: 0 0 10px #ccc;
+		box-shadow: 0 0 10px #ccc;
+	}
 </style>
   </head>
   <body>
     <header class="page-header" role="banner">
-      <img src="me.jpg" height="auto" width="200" style="border-radius:50%">
+      <div class="imgBox" height="auto" width="200" style="border-radius:50%">
+	</div> 
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         <a href="{{ site.github.repository_url }}" class="btn">Hackster</a>
